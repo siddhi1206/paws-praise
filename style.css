@@ -1,0 +1,810 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@200;300;500;600;700;800;900&family=Saira+Semi+Condensed:wght@100;200&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900&family=Kanit:ital,wght@1,500&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@200;300;500;600;700;800;900&family=Saira+Semi+Condensed:wght@100;200&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --text-color: #000000;
+    --main-color: #5cac3d;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 100px;
+    background: #fff;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.logo span {
+    color:  #5cac3d;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+}
+
+.navbar a {
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #5b57578e;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+}
+
+#menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.page1 {
+    width: 100%;
+    height: 100vh;
+    background: url('../imgs/smin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.page1-text h1 {
+    font-size: 4rem;
+}
+
+.page1-text p {
+    font-size: 0.938rem;
+    margin: 0.4rem 0 1.8rem;
+}
+
+.page1-text span {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    width: 100%;
+}
+
+.btn {
+    padding: 10px 30px;
+    background: #fff;
+    color: #5cac3d;
+   font-weight: bold;
+   text-transform:uppercase;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: #fff;
+}
+.wrapper {
+    width: 350px;
+    height: 500px;
+    line-height: 1.5;
+   background: #5dac3d81;
+   
+    border: 2px solid, rgba(255, 255, 255, .2);
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 1px;
+    padding: 30px 40px;
+}
+.page2{
+    background-color: #5cac3d;
+    background-attachment: fixed;
+}
+.page2 hr{
+    border: solid 2px;
+    width: 75%;
+    
+}                                                                                   
+.service-container{
+    background-color: #5cac3d;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px, auto));
+    grid-gap: 1.5rem;
+    margin-top: .25rem;
+
+}
+.box1 
+{
+    text-align: center;
+    padding: 20px 30px;
+}
+.box1 h1
+{
+    font-size: 3rem;
+}
+.box1 p{
+    color: #fff;
+    line-height: 1.8;
+    text-align: left;
+}
+
+/*---------------------------- siddhi ------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@200;300;500;600;700;800;900&family=Saira+Semi+Condensed:wght@100;200&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900&family=Kanit:ital,wght@1,500&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@200;300;500;600;700;800;900&family=Saira+Semi+Condensed:wght@100;200&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat";
+}
+
+.dog-image {
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcfcfd;
+}
+
+.container3 {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left {
+    width: 40%;
+    min-height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(11, 11, 11);
+    left: 60px;
+    position: absolute;
+}
+
+.left h1 {
+    font-family: 'Fira Sans', sans-serif;
+    color: #5cac3d;
+    font-size: 3.2rem;
+    font-weight: 800;
+}
+
+.left p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 1rem;
+}
+
+.left a {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #5cac3d;
+    padding: 8px 5px;
+    display: inline-block;
+    letter-spacing: 0.8px;
+    text-decoration: underline;
+}
+
+
+.right {
+    width: 70%;
+    height: 500px;
+    background: url('../imgs/6477min.jpg')no-repeat center/cover;
+    position: absolute;
+    left: 30%;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .left {
+        width: 100%;
+        height: 400px;
+    }
+
+    .right {
+        width: 90%;
+        margin: 0;
+        margin-top: -100px;
+    }
+}
+.text{
+    background-color: #5cac3d;
+   
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content1 {
+    
+    background-color: #5cac3d;
+    display: flex;
+    column-gap: 10px;
+    background-size: cover;
+   
+
+}
+
+.left-txt {
+
+    width: 450px;
+    height: 400px;
+    padding: 20px 0;
+    color: black;
+
+
+
+}
+
+.left-txt h1 {
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: 800;
+    position: relative;
+    line-height: 2.5rem;
+}
+
+.left-txt h1::after {
+    content: "";
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background: #fff;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.left-txt p {
+    color: white;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.right-txt {
+
+    width: 300px;
+    height: 350px;
+    padding: 20px 0;
+    color: black;
+    
+}
+
+.right-txt p {
+    color: white;
+    font-size: 1rem;
+
+}
+
+.right-txt a {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #5cac3d;
+    background-color: white;
+    padding: 8px 10px;
+    display: inline-block;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+/*----------------------------------- sayali --------------------------------------*/
+
+/*section {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcfcfd;
+}*/
+.image{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcfcfd;
+}
+.text1{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcfcfd;
+}
+.container1 {
+   
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 50vh;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+
+   
+}
+
+.left1 {
+    width: 50%;
+    min-height: 300px;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(11, 11, 11);
+    left: 80px;
+    position: absolute;
+    line-height: 2.5rem;
+  
+}   
+
+.abc{
+    color: rgb(69, 67, 67);
+    font-weight: lighter;
+    font-size: 5rem;
+}
+
+/*
+.left p {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 10%;
+}
+.content h6{
+    font-weight: 0.5px;
+}*/
+
+
+.left1 h1 {
+    font-family: 'Fira Sans', sans-serif;
+    color: #5cac3d;
+    font-size: 3.2rem;
+    font-weight: 800;
+}
+
+.left1 p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0;
+    font-weight: 10;
+    line-height: 25px;
+    font-size: 0.9rem;
+}
+
+.left1 a {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: #5cac3d;
+    padding: 8px 5px;
+    display: inline-block;
+    letter-spacing: 0.8px;
+    text-decoration: underline;
+}
+
+
+.right1 {
+    width:80%;
+    height: 500px;
+    background: url('../imgs/dsmin.jpg')no-repeat center/cover;
+    position: absolute;
+    left: 30%;
+
+}
+
+/*--------------------------------section 2-----------------------*/
+
+    /*.container1 {
+        flex-direction: column;
+        width: 1000%;
+        margin: 0 20px;
+        position: absolute;
+        max-width: 1000px;
+        margin-top: 50vh;
+        display: flex;
+        align-items: last baseline;
+        justify-content: center;
+
+    }*/
+
+    .left2 {
+        background-color: white;
+        text-align: center;
+        width: 600px;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+   /*.right1 {
+        margin: 10vh;
+        width: 50%;
+        height: 600px;
+        background: url('img/girldog.jpg')no-repeat center/cover;
+        position: relative;
+        left: 30%;
+       
+       
+    }*/
+    
+  
+    .partition {
+        box-sizing: border-box;
+        border: none;
+        flex: 1 0 50%;
+        height: 250pxpx;
+
+      }
+      .partition p{
+        margin-left: 10px;
+        margin-right: 6px;
+        margin-top: 11px;
+        margin-bottom: 2px;
+      }
+
+
+.text1 {
+    background-color: #5cac3d;
+}
+
+
+
+
+
+
+.left2-txt {
+
+    width: 450px;
+    height: 400px;
+    padding: 20px 0;
+    color: black;
+
+}
+
+.left2-txt h1 {
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: 800;
+    position: relative;
+    line-height: 2.5rem;
+}
+
+.left2-txt h1 ::after {
+    content: "";
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background: #fff;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.left2-txt p {
+    color: white;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.right2-txt {
+
+    width: 300px;
+    height: 350px;
+    padding: 20px 0;
+    color: black;
+}
+
+.right2-txt p {
+    color: white;
+    font-size: 1rem;
+
+}
+
+.right2-txt a {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #5cac3d;
+    background-color: white;
+    padding: 8px 10px;
+    display: inline-block;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/*------------------------------- Anushka -----------------
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+------*/
+:root {
+    --text-color: #000000;
+    --main-color: #5cac3d;
+}
+
+
+
+.section1 {
+    background-color: #ffffff;
+    /* White */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400;
+    height: 300px;
+}
+
+.section2 {
+    background-color: #5cac3d;
+    /* Green */
+    color: #ffffff;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact-info {
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-left: 140px;
+}
+
+.bold-text {
+    font-size: 22px;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    margin-top: 60px;
+}
+
+.small-text {
+    margin-top: 20PX;
+    font-size: 20px;
+    /* Adjust the font size as needed */
+    font-weight: normal;
+}
+
+.section3 {
+   /* background-color: #2e2929;
+    /* Black 
+    color: #ffffff;
+    padding: 20px;
+    justify-content: center;
+    margin-bottom: 70px;
+    height: 100px;
+    height: 50vh;*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2e2929;
+}
+
+.box {
+    background-color: #ffffff;
+    /* White */
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1000px;
+    padding: 20px;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 600px;
+    margin-right: 200px;
+    /* Adjust this value as needed */
+}
+
+.feedback {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.puppy-text::after {
+    content: '\201C';
+    /* Unicode for opening double quote */
+    font-size: 12em;
+    position: absolute;
+    top: -0.3em;
+    left: -0.01em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 0.9;
+    bottom: -0.12em;
+    color: #5dac3da8;
+}
+
+.puppy-text {
+    position: relative;
+    padding-left: 2em;
+}
+
+.feedback-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.puppy-text {
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section3{
+    
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 20%;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+    font-size: 16px;
+}
+
+.sample-text {
+    cursor: text;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.template-info {
+    margin-top: 90px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+}
+
+.green-underline {
+    color: rgb(136, 244, 136);
+    text-decoration: underline;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nicepage {
+    color: rgb(136, 244, 136);
+    text-decoration: underline;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
